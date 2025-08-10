@@ -1,0 +1,6 @@
+Modelo,Total de Casos de Teste,Total de Acertos,Total de Erros,Total de Incorretos,Taxa de Assertividade (%)
+"Claude 3
+Haiku",616,543,37,36,88.14935064935064
+Gemini,616,420,166,29,68.18181818181817
+GPT-4,616,500,92,22,81.16883116883116
+Llama 3.1,616,314,278,24,50.97402597402597

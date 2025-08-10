@@ -1,0 +1,7 @@
+class Solution:
+    def average(self, salary):
+        min_salary = min(salary)
+        max_salary = max(salary)
+        total = sum(salary) - min_salary - max_salary
+        count = len(salary) - 2
+        return total / count

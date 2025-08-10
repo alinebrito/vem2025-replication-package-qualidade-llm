@@ -1,0 +1,13 @@
+Model 1,Model 2,Metric,U Statistic,P Value
+gemini,claude-3-haiku,maintainability issues,197152.0,0.14363664714935326
+gemini,claude-3-haiku,technical debt,197146.0,0.1479239208360591
+gemini,gpt-4,maintainability issues,188337.5,0.7884239379931471
+gemini,gpt-4,technical debt,188321.5,0.7886040227038744
+gemini,llama-3,maintainability issues,202327.5,0.01674986807028555
+gemini,llama-3,technical debt,201768.0,0.023588569728546487
+claude-3-haiku,gpt-4,maintainability issues,180638.5,0.07232596739096939
+claude-3-haiku,gpt-4,technical debt,180957.0,0.08662412208409306
+claude-3-haiku,llama-3,maintainability issues,195249.5,0.28403625503839935
+claude-3-haiku,llama-3,technical debt,194860.5,0.3237915132340584
+gpt-4,llama-3,maintainability issues,203811.0,0.00732251969232609
+gpt-4,llama-3,technical debt,203194.0,0.01124818478204576

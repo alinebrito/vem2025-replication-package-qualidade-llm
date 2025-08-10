@@ -1,0 +1,6 @@
+LLM,Total Responses,Successful Responses,Correct Responses,Incorrect Responses,Error Responses,Assertivity Rate
+claude-3-haiku,46,7,0,0,39,15.217391304347828
+gemini,30,17,0,0,13,56.666666666666664
+gpt-4,23,15,0,0,8,65.21739130434783
+Overall,153,77,0,0,76,50.326797385620914
+llama-3.1,54,38,0,0,16,70.37037037037037

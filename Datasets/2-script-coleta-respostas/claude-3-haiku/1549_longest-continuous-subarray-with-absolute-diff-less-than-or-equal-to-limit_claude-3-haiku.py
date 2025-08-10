@@ -1,0 +1,22 @@
+class Solution:
+    def longestSubarray(self, nums: List[int], limit: int) -> int:
+        n = len(nums)
+        left, right = 0, 0
+        max_len = 0
+        min_val, max_val = float('inf'), float('-inf')
+
+        while right < n:
+            min_val = min(min_val, nums[right])
+            max_val = max(max_val, nums[right])
+
+            while max_val - min_val > limit:
+                if nums[left] == min_val:
+                    min_val = min(nums[left+1:right+1])
+                if nums[left] == max_val:
+                    max_val = max(nums[left+1:right+1])
+                left += 1
+
+            max_len = max(max_len, right - left + 1)
+            right += 1
+
+        return max_len
